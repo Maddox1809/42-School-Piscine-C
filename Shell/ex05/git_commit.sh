@@ -1,0 +1,1 @@
+git log | grep commit | awk '{ print substr( $0, 8 ) }'
